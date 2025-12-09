@@ -8,7 +8,7 @@ In this case, we want to silence essential genes leading to  death or the impair
 This fungus is the causal organism of the chestnut blight and is responsible for the death of 3-4 billion American chestnut trees (*Castanea dentata*) in the early 20th century.
 
 ## Step 1: Identify essential pathways and genes ##
-In this case, I want to design chimeric dsRNA templates that will combine multiple target genes involved in similar essential pathways, including:
+In this case, I want to design chimeric dsRNA templates that will combine multiple target genes involved in essential pathways, including:
 1. Chitin synthase - Chitin is an essential component of fungal cell walls
 2. Vessicle trafficking genes - Required for maintenence of polarized growth and the movement of essential cell cargo.
 3. Ergosterol synthesis - Ergosterol is a lipid required for formation of cell membranes in fungi. These pathway has been targeted by conventional chemical pesticides.
@@ -35,3 +35,13 @@ This study includes links to case studies where specific genes in these pathways
 [^4]: Duanis-Assaf, D., Galsurker, O., Davydov, O., Maurer, D., Feygenberg, O., Sagi, M., Poverenov, E., Fluhr, R. and Alkan, N. (2022) Double-stranded RNA targeting fungal ergosterol biosynthesis pathway controls Botrytis cinerea and postharvest grey mould. Plant Biotechnol. J., https://doi.org/10.1111/pbi.13708
 
 ## Step 2: Find gene sequences in target organism ##
+Now we need to find the DNA sequences for these genes in C. parasitica
+The reference genome for C. parasitica is available on Genbank. To find it go to [NCBI Genomic datasets site](https://www.ncbi.nlm.nih.gov/datasets/genome/) and search by the organism name.
+
+There are 2 methods we can use to find the genes. The first is via a keyword search
+1. Go to the [Mycocosm page for C. parasitica strain EP155](https://mycocosm.jgi.doe.gov/Crypa2/Crypa2.home.html)
+2. Click on "Search" on the top menu ribbon
+3. You can search for the exact name, or set the search terms to "Prefix" and enter the letters
+4. 
+
+The second method is to Blast search the reference genome for similar sequences.sequence similarity; this requires the sequences of the targets used in the other fungal RNAi studies.
