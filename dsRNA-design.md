@@ -72,3 +72,5 @@ From the blast search results, click on the top scoring protein entry.
 <img width="1460" height="964" alt="Protein entry" src="https://github.com/user-attachments/assets/5830bd54-5185-4543-aeb4-941e033048ad" />
 
 On this page you can view simiarly identified proteins in other fungi. Click on "View nucleotide and 3 frame translation". On the next page, uncheck "Display genomic coordinates", "Display 3-frame translation", and "Display sequence ruler marks", then update the display.
+
+Scroll down to the CDS. Copy **only the red text**. These nucleotides represent the genetic code that remains after transcription and post transcriptional modifications, essentially the 'core' of the protein coding sequence. 
