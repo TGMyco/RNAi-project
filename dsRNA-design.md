@@ -59,5 +59,16 @@ Unfortunately, it is not always easy to find protein accession #s, as some studi
 
 
 Now that we have the protein sequences, it is time to perform a BLASTp search on the JGI annotated C.parasitica genome. The BLASTp search interface can be reached [here](https://mycocosm.jgi.doe.gov/pages/blast-query.jsf?db=Crypa2).
-
 Paste the target protein FASTA sequence into the query box, set the alignment program to blastp: protein vs protein, and set the database to Cryphonectria parasitica v2.0 gene catalog 20091217 (proteins)
+You can enter multiple protein queries at once for paralell searching. In this case, I searched all 3 Chitin synthase sequences at once. 
+<img width="1907" height="745" alt="BLASTp search example" src="https://github.com/user-attachments/assets/8d880fcc-17fb-4425-91da-4ff59cd5e82a" />
+
+
+Hopefully, your results will look something like this:
+<img width="1528" height="530" alt="BLASTp search results" src="https://github.com/user-attachments/assets/2209f6a7-0579-4aec-9f89-d243d06636a7" />
+
+From these results we can presume that the protein match with the highest score is the best option for targeting the intended gene. 
+From the blast search results, click on the top scoring protein entry.
+<img width="1460" height="964" alt="Protein entry" src="https://github.com/user-attachments/assets/5830bd54-5185-4543-aeb4-941e033048ad" />
+
+On this page you can view simiarly identified proteins in other fungi. Click on "View nucleotide and 3 frame translation". On the next page, uncheck "Display genomic coordinates", "Display 3-frame translation", and "Display sequence ruler marks", then update the display.
