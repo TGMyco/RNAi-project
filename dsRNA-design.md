@@ -56,6 +56,8 @@ First, find the Protein accession #s listed in the studies.
 
 Unfortunately, it is not always easy to find protein accession #s, as some studies directly extract the target sequences from the organism and sequence the DNA without using reference genomes. However, the RNA template sequence should always be provided somehwere in the study, in which case you may simply need to BLAST the nucelotides. 
 
+
+
 Now that we have the protein sequences, it is time to perform a BLASTp search on the JGI annotated C.parasitica genome. The BLASTp search interface can be reached [here](https://mycocosm.jgi.doe.gov/pages/blast-query.jsf?db=Crypa2).
 
-
+Paste the target protein FASTA sequence into the query box, set the alignment program to blastp: protein vs protein, and set the database to Cryphonectria parasitica v2.0 gene catalog 20091217 (proteins)
